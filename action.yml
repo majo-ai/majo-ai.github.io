@@ -1,0 +1,9 @@
+name: 'Deploy to GitHub Pages - Python'
+description: 'This action will handle the building and deploying process of the project to GitHub Pages.'
+author: 'Majo'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
+branding:
+  icon: 'git-commit'
+  color: 'orange'
